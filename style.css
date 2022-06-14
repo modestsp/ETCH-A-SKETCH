@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #023047;
 }
 /* .container {
     display: grid;
@@ -14,21 +15,21 @@ body {
     margin-top: auto;
     margin-bottom: auto;
 } */
+
 .squareDiv {
-    width: 30px;
-    height: 30px;
-    border: 1px solid black;
-    flex: 1 1 auto;
-}
+    /* width: 30px;
+    height: 30px; */
+    /* border: 1px solid rgb(236, 209, 209); */
+} 
 
 .hov {
     background-color: black;
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 512px;
-    height: 512px;
+    display: grid;
+    width: 600px;
+    height: 600px;
     border: 1px solid blue;
+    background-color: #edf6f9;
 }
