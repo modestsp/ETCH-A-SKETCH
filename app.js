@@ -1,5 +1,6 @@
 const container = document.querySelector('.container')
-for (let i = 0; i <= 255; i++ ) {
+let size = 16
+for (let i = 1; i <= (size * size); i++ ) {
     const div = document.createElement('div')
     div.classList.toggle('squareDiv')
     div.addEventListener('mouseover', e => {
